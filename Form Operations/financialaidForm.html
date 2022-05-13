@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Financial Aid Form</h1>
+        <form name="financialaid" action="financialaid.php" method="get" autocomplete="on">
+            Name & Surname: 
+            <input type="text" name="namesurname" id="namesurname" size="25" maxlength="50" placeholder="Write your name and surname!" required>
+            <br>
+            Email: 
+            <input type="email" name="email" id="email" size="25" maxlength="50" placeholder="Write your email here!" required>
+            <br>
+            Why do you need this aid?(Requires 200 words!)
+            <textarea name="why" id="why" rows="6" cols="50"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
